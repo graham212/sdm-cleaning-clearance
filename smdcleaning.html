@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>S.D.M Cleaning & Clearance Services — Todmorden, Rochdale & Surrounding Areas</title>
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Trusted family-run cleaning & clearance specialists serving Todmorden, Rochdale, Hebden Bridge and Rossendale. Same-day rubbish collection, house & garden clearances, one-off and regular cleans. Fully insured and CRB checked.">
+    <meta name="keywords"
+        content="cleaning, clearance, house clearance, rubbish collection, same-day collection, end of tenancy clean, Todmorden, Rochdale, Hebden Bridge, Rossendale">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="http://localhost/smdcleaning.html"> <!-- replace with your live URL -->
+    <meta name="theme-color" content="#2c5aa0">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="S.D.M Cleaning & Clearance Services">
+    <meta property="og:description"
+        content="Family-run, fully insured cleaning and clearance services across Todmorden, Rochdale, Hebden Bridge and Rossendale.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/hero.jpeg">
+    <meta property="og:url" content="http://localhost/"> <!-- replace with your site URL -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Fonts, Bootstrap & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" href="logo/sdmcleaning.png">
+    <link rel="preload" as="image" href="images/hero.jpeg">
+
+    <!-- Structured Data: LocalBusiness + FAQ -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "S.D.M Cleaning & Clearance Services",
+            "description": "Family-run cleaning and clearance specialists — same-day rubbish collection, house & garden clearances, and one-off or regular cleans in Todmorden, Rochdale, Hebden Bridge & Rossendale.",
+            "telephone": "07553 400 776",
+            "email": "SDM.clean@hotmail.com",
+            "url": "http://localhost/",
+            "logo": "http://localhost/logo/sdmcleaning.png",
+            "serviceArea": ["Todmorden","Rochdale","Hebden Bridge","Rossendale"],
+            "priceRange": "£",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Todmorden",
+                "addressRegion": "West Yorkshire",
+                "addressCountry": "GB"
+            },
+            "service": [
+                {"@type":"Service","name":"House Clearances"},
+                {"@type":"Service","name":"Garden & Shed Clearances"},
+                {"@type":"Service","name":"Same-day Rubbish Collection"},
+                {"@type":"Service","name":"One-off Deep Clean"},
+                {"@type":"Service","name":"Regular Cleaning"},
+                {"@type":"Service","name":"End of Tenancy Clean"}
+            ],
+            "sameAs": []
+        }
+        </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How much does a house clearance cost?",
+                    "acceptedAnswer": {"@type":"Answer","text":"Prices vary by size and waste volume — we offer free quotes within 24 hours. Call 07553 400 773 for a fast estimate."}
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can you do same-day rubbish collection?",
+                    "acceptedAnswer": {"@type":"Answer","text":"Yes — call before 10am for same-day collections in most local areas. We also offer flexible slots for larger jobs."}
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are you insured and CRB checked?",
+                    "acceptedAnswer": {"@type":"Answer","text":"Yes — we are fully insured and CRB checked for your peace of mind."}
+                }
+            ]
+        }
+        </script>
+
+    <style>
+        :root {
+            /* Brand palette (reduced hues) */
+            --primary-color: #24539a;
+            /* SDM blue (slightly deeper for contrast) */
+            --primary-600: #1e467f;
+            /* hover/dark */
+            --accent-color: #7bb6ff;
+            /* soft blue accent for highlights */
+
+            /* Neutrals */
+            --text-color: #242b38;
+            --text-muted: #5b6675;
+
+            /* Backgrounds (reduced variants) */
+            --bg-0: #ffffff;
+            --bg-1: #f4f7fc;
+            /* subtle blue-tinted neutral */
+
+            /* Surfaces */
+            --panel: #ffffff;
+            --panel-edge: #e3eaf4;
+            --panel-shadow: 0 1px 2px rgba(20, 30, 60, 0.05), 0 8px 24px rgba(20, 30, 60, 0.06);
+            --panel-shadow-soft: 0 1px 1px rgba(20, 30, 60, 0.04), 0 4px 14px rgba(20, 30, 60, 0.05);
+            --dark: #1f2a3a;
+
+            --shadow-1: 0 2px 10px rgba(0, 0, 0, 0.06);
+            --shadow-2: 0 8px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        html,
+        body {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--scroll-offset, 96px);
+            /* default for sticky header */
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", "Noto Sans", sans-serif;
+            background: var(--bg-1);
+            color: var(--text-color);
+            line-height: 1.55;
+        }
+
+        /* Top bar */
+        .topbar {
+            background: var(--primary-color);
+            color: #eaf2ff;
+            font-size: 0.95rem;
+        }
+
+        .topbar a {
+            color: #eaf2ff;
+            text-decoration: none;
+        }
+
+        .topbar .bi {
+            color: #cfe2ff;
+        }
+
+        /* Navbar - add horizontal scroll and stronger separation */
+        .navbar {
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+            background: #ffffff;
+            border-bottom: 1px solid #e5ebf3;
+            position: sticky;
+            top: 0;
+            z-index: 1020;
+            backdrop-filter: blur(6px);
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.75));
+        }
+
+        .navbar .navbar-nav {
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            gap: .25rem;
+            scrollbar-width: thin;
+            max-width: 100%;
+        }
+
+        .navbar .nav-link {
+            white-space: nowrap;
+            padding-inline: .75rem;
+        }
+
+        .navbar .navbar-nav::-webkit-scrollbar {
+            height: 6px;
+        }
+
+        .navbar .navbar-nav::-webkit-scrollbar-thumb {
+            background: #c7cfdb;
+            border-radius: 4px;
+        }
+
+        .navbar-brand img {
+            height: 60px;
+            width: auto;
+        }
+
+        .btn-cta {
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            color: #fff !important;
+            border-radius: 12px;
+            padding: 0.65rem 1.15rem;
+            box-shadow: 0 6px 18px rgba(36, 83, 154, 0.12);
+            border: 0;
+            transition: transform .15s ease, box-shadow .15s ease;
+        }
+
+        .btn-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(36, 83, 154, 0.14);
+        }
+
+        /* Hero - simplified for cohesion */
+        .hero {
+            position: relative;
+            border-radius: 1.25rem;
+            overflow: visible;
+            background: linear-gradient(120deg, rgba(36, 83, 154, 0.06), rgba(123, 182, 255, 0.03));
+            border: 1px solid #e5ebf3;
+            box-shadow: 0 14px 40px rgba(31, 42, 58, 0.08);
+            padding: 1.25rem 1.25rem;
+            /* reduce vertical padding */
+            min-height: 260px;
+            /* reduce height so hero is not too tall */
+            /* give the hero visual weight (reduced to avoid tall stretch) */
+            max-width: 1200px;
+            margin: 0 auto;
+            /* center the hero block */
+            display: block;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(560px 220px at 100% 0%, rgba(36, 83, 154, 0.07), transparent 60%);
+            pointer-events: none;
+        }
+
+        .hero .badge {
+            font-weight: 600;
+            border-radius: .5rem;
+            box-shadow: none;
+        }
+
+        .hero-title {
+            color: var(--dark);
+            -webkit-text-fill-color: initial;
+            background: none;
+        }
+
+        /* keep hero headline readable and centered but allow wider lines so it doesn't feel squashed */
+        .hero-title {
+            /* allow the headline to use the column width - centered but not artificially capped */
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: clamp(1.6rem, 3.8vw, 3.2rem);
+            line-height: 1.02;
+            letter-spacing: -0.2px;
+            word-break: normal;
+        }
+
+        @media (min-width: 1400px) {
+            .hero {
+                min-height: 340px;
+            }
+
+            .hero-title {
+                font-size: 3.4rem;
+            }
+        }
+
+        /* ensure inner row vertically centers its content */
+        .hero .row {
+            min-height: 220px;
+            align-items: center;
+        }
+
+        /* Hero accent artwork */
+        .hero-art {
+            position: absolute;
+            right: -40px;
+            top: -20px;
+            width: 360px;
+            height: 360px;
+            pointer-events: none;
+            opacity: .14;
+            filter: blur(2px);
+            background: radial-gradient(circle at 30% 30%, rgba(123, 182, 255, 0.35), rgba(36, 83, 154, 0.18) 40%, transparent 60%);
+            border-radius: 50%;
+        }
+
+        /* optional hero background image (uses images/hero.jpeg) */
+        .hero.hero-photo {
+            background-image: url('images/hero.jpeg');
+            background-size: cover;
+            background-position: center center;
+            color: #fff;
+            position: relative;
+        }
+
+        /* dark overlay so text remains legible on busy photos */
+        .hero.hero-photo::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 1.25rem;
+            background: linear-gradient(90deg, rgba(6, 12, 22, 0.64), rgba(6, 12, 22, 0.32));
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        /* ensure hero content sits above the overlay */
+        .hero.hero-photo .row,
+        .hero.hero-photo .container,
+        .hero.hero-photo .col-lg-6,
+        .hero.hero-photo .col-lg-8,
+        .hero.hero-photo .col-lg-4 {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* stronger, readable hero text on photo */
+        .hero.hero-photo .hero-title,
+        .hero.hero-photo .hero-subtitle,
+        .hero.hero-photo .lead,
+        .hero.hero-photo .small,
+        .hero.hero-photo .section-sub {
+            color: #fff !important;
+            text-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+        }
+
+        /* make the testimonial card a translucent glass panel for legibility */
+        .hero .quote-card {
+            background: rgba(255, 255, 255, 0.92);
+            color: var(--text-color);
+            border-radius: 12px;
+            border: 0;
+            box-shadow: 0 10px 30px rgba(20, 30, 60, 0.08);
+            backdrop-filter: blur(6px);
+        }
+
+        /* badges on hero: make them slightly transparent so they sit well on image */
+        .hero .badge.bg-light {
+            background: rgba(255, 255, 255, 0.95) !important;
+        }
+
+        .hero-subtitle {
+            color: var(--text-muted);
+        }
+
+        /* Section titles */
+        .section-title {
+            font-weight: 800;
+            letter-spacing: 0.2px;
+        }
+
+        .section-sub {
+            color: var(--text-muted);
+        }
+
+        /* Cards & lists */
+        .card {
+            border: 1px solid var(--panel-edge);
+            border-radius: 16px;
+            background: var(--panel);
+            box-shadow: var(--panel-shadow-soft);
+            transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--panel-shadow);
+            border-color: #d6e2f3;
+        }
+
+        /* reveal on scroll */
+        .reveal {
+            opacity: 0;
+            transform: translateY(18px) scale(.995);
+            transition: opacity .55s cubic-bezier(.2, .9, .2, 1), transform .55s cubic-bezier(.2, .9, .2, 1);
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: none;
+        }
+
+        .service-item {
+            background: #f1f6ff;
+            border-radius: .75rem;
+            padding: .9rem 1rem;
+            border: 1px solid #e1ebfb;
+        }
+
+        .service-item:hover {
+            background: #e8f1ff;
+            transition: .2s ease;
+            border-color: #d3e2ff;
+        }
+
+        /* Booking card accent */
+        .booking-card::before {
+            content: "";
+            display: block;
+            height: 4px;
+            width: 100%;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            border-radius: 4px 4px 0 0;
+        }
+
+        /* Section backgrounds (reduced) */
+        .section-services {
+            background: var(--bg-0);
+        }
+
+        .section-areas {
+            background: var(--bg-1);
+        }
+
+        .section-quote {
+            background: var(--bg-0);
+        }
+
+        .section-wrap {
+            box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
+        }
+
+        /* Section dividers */
+        .section-wrap {
+            position: relative;
+            border-radius: 1rem;
+        }
+
+        .section-wrap+.section-wrap {
+            margin-top: 3rem;
+        }
+
+        .section-wrap .divider-top {
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            border-radius: 6px 6px 0 0;
+            opacity: .9;
+        }
+
+        /* duplicate block removed */
+
+        /* Section title underline */
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: "";
+            display: block;
+            height: 3px;
+            width: 72px;
+            margin: .5rem auto 0;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            border-radius: 2px;
+            opacity: .85;
+        }
+
+        /* animated underline */
+        .section-title {
+            position: relative;
+            overflow: visible;
+        }
+
+        .section-title::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 100%;
+            transform: translateX(-50%) scaleX(0);
+            transform-origin: center left;
+            width: 72px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            border-radius: 2px;
+            transition: transform .5s cubic-bezier(.2, .9, .2, 1);
+        }
+
+        .section-title.visible::before {
+            transform: translateX(-50%) scaleX(1);
+        }
+
+        /* Footer */
+        footer {
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 576px) {
+            .display-4 {
+                font-size: 2.1rem;
+            }
+        }
+
+        /* Testimonial cards */
+        .quote-card {
+            border-left: 4px solid var(--primary-color);
+            background: #f2f7ff;
+        }
+
+        /* Removed testimonial carousel styles */
+
+        /* Floating call-to-action */
+        .floating-cta {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            z-index: 1100;
+            display: inline-grid;
+            gap: .5rem;
+            align-items: center;
+        }
+
+        .floating-cta a {
+            display: inline-flex;
+            align-items: center;
+            gap: .6rem;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            color: #fff;
+            padding: .8rem 1rem;
+            border-radius: 999px;
+            box-shadow: 0 12px 36px rgba(36, 83, 154, 0.18);
+            text-decoration: none;
+            font-weight: 700;
+            transition: transform .18s ease, box-shadow .18s ease;
+        }
+
+        .floating-cta a:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 18px 48px rgba(36, 83, 154, 0.2);
+        }
+
+        .floating-cta .pulse {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 0 rgba(255, 255, 255, 0.9);
+            animation: pulse 1.9s infinite;
+            opacity: .95
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(123, 182, 255, 0.45);
+            }
+
+            70% {
+                box-shadow: 0 0 0 14px rgba(123, 182, 255, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(123, 182, 255, 0);
+            }
+        }
+
+        /* Back to top */
+        .back-to-top {
+            position: fixed;
+            left: 20px;
+            bottom: 22px;
+            z-index: 1100;
+            display: none;
+            background: #fff;
+            border-radius: 10px;
+            padding: .5rem;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+
+        .back-to-top.show {
+            display: block;
+        }
+
+        /* smaller screens: reduce hero-art overflow */
+        @media (max-width: 992px) {
+            .hero-art {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Topbar -->
+    <div class="topbar py-2">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+            <div class="d-flex align-items-center gap-3">
+                <span><i class="bi bi-people-fill me-1"></i> Family-run</span>
+                <span><i class="bi bi-shield-check me-1"></i> Fully insured</span>
+                <span><i class="bi bi-patch-check-fill me-1"></i> CRB checked</span>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+                <a href="tel:07553400776"><i class="bi bi-telephone me-1"></i> 07553 400 776</a>
+                <a href="mailto:SDM.clean@hotmail.com"><i class="bi bi-envelope me-1"></i> SDM.clean@hotmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+                <img src="logo/sdmcleaning.png" alt="SDM logo">
+                <span class="fw-semibold text-dark">S.D.M Cleaning & Clearance</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+                aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nav" class="collapse navbar-collapse">
+                <!-- Make nav list scrollable horizontally on overflow -->
+                <ul class="navbar-nav ms-auto align-items-lg-center flex-row flex-lg-row">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#areas">Areas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#quote">Free Quote</a></li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <a class="btn btn-cta" href="tel:07553400776"><i class="bi bi-telephone me-1"></i> Call now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header id="home" class="container-fluid my-4">
+        <section class="hero p-4 p-md-5 position-relative overflow-hidden hero-photo">
+            <div class="hero-art" aria-hidden="true"></div>
+            <div class="row align-items-center g-4 justify-content-center">
+                <div class="col-12 col-lg-10 text-center" style="z-index:2">
+                    <div class="d-flex justify-content-center">
+                        <img src="logo/sdmcleaning.png" alt="S.D.M Cleaning & Clearance Services Logo" class="mb-3"
+                            style="max-width:220px; height:auto;" loading="lazy">
+                    </div>
+                    <p class="text-uppercase small fw-semibold mb-2"
+                        style="letter-spacing:.1em;color:var(--accent-color);">SDM Sparkle Domestic Maintenance</p>
+                    <h1 class="display-5 fw-bold hero-title mb-3">Fast, Friendly Clearances & Cleans
+                        <br class="d-none d-md-block">A Spotless Home Without the Stress
+                    </h1>
+                    <div class="mx-auto" style="max-width:880px">
+                        <p class="lead hero-subtitle mb-3 text-center text-lg-center">Family‑run • Fully insured • CRB
+                            checked • Rated 4.9/5 by local customers</p>
+
+                        <div class="row g-3 mb-3">
+                            <div class="col-12">
+                                <ul class="list-unstyled mb-0 small mx-auto" style="columns:2; max-width:540px">
+                                    <li>⏱ <strong>Same‑day service</strong></li>
+                                    <li>🤝 <strong>Trusted team</strong></li>
+                                    <li>💷 <strong>Fair pricing</strong></li>
+                                    <li>📅 <strong>Flexible slots</strong></li>
+                                    <li style="break-inside:avoid;">📍 <strong>Local coverage</strong></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="d-flex flex-wrap gap-3 align-items-center mt-1 justify-content-center justify-content-lg-center">
+                        <a href="tel:07553400776" class="btn btn-lg shadow-sm"
+                            style="background:#28a745; color:#fff; border-radius:14px; font-weight:600;">
+                            <i class="bi bi-telephone-outbound me-2"></i>Call 07553&nbsp;400&nbsp;776
+                        </a>
+                        <a href="#quote" class="btn btn-cta" aria-label="Get a free quote now"><i
+                                class="bi bi-chat-dots me-1"></i> Free Quote</a>
+                    </div>
+
+                    <div class="mt-4 p-3 rounded-3 mx-auto text-center"
+                        style="background:rgba(255,255,255,0.15); backdrop-filter:blur(4px); max-width:640px;">
+                        <p class="mb-2 small" style="font-style:italic; color:#fff;">“Really helpful, punctual and left
+                            everything spotless. Would definitely recommend.”</p>
+                        <div class="small" style="color:#d9e6ff;">— Sarah, Todmorden</div>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3 mt-3">
+                        <div class="d-flex align-items-center" aria-hidden="true">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <span class="ms-2 small text-muted">Excellent — 4.9/5 from local customers</span>
+                        </div>
+                        <div class="d-flex align-items-center ms-3">
+                            <span class="badge bg-light text-primary border" style="font-weight:700;">Fully
+                                insured</span>
+                            <span class="badge bg-light text-primary border ms-2" style="font-weight:700;">CRB
+                                checked</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- removed separate hero picture column to allow centered content over the background image -->
+            </div>
+        </section>
+        <!-- SVG divider -->
+        <div class="w-100" aria-hidden="true">
+            <svg viewBox="0 0 1200 60" preserveAspectRatio="none" style="display:block;width:100%;height:40px;">
+                <path d="M0,0 C300,60 900,0 1200,40 L1200,60 L0,60 Z" fill="#ffffff" opacity="0.95"></path>
+            </svg>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Services -->
+        <section id="services" class="my-5 section-services p-0 rounded-4 section-wrap">
+            <div class="divider-top"></div>
+            <div class="p-3 p-md-4">
+                <div class="text-center mb-4">
+                    <h2 class="section-title h1">Our Services</h2>
+                    <p class="section-sub">Friendly, careful and thorough — tailored to your needs</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start gap-3">
+                                    <div class="bg-white rounded-circle d-flex align-items-center justify-content-center"
+                                        style="width:56px;height:56px;border:1px solid var(--panel-edge); box-shadow:var(--shadow-1);">
+                                        <i class="bi bi-house-door-fill fs-4" style="color:var(--primary-600)"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h5 mb-1">House Clearances</h3>
+                                        <p class="mb-2 small text-muted">Complete and considerate property clearances.
+                                        </p>
+                                        <ul class="mb-0 small text-muted ps-3">
+                                            <li>Attics, garages, sheds</li>
+                                            <li>Responsible disposal</li>
+                                            <li>Quick turnaround</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start gap-3">
+                                    <div class="bg-white rounded-circle d-flex align-items-center justify-content-center"
+                                        style="width:56px;height:56px;border:1px solid var(--panel-edge); box-shadow:var(--shadow-1);">
+                                        <i class="bi bi-tree-fill fs-4" style="color:var(--primary-600)"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h5 mb-1">Garden & Shed Clearances</h3>
+                                        <p class="mb-2 small text-muted">Restore outdoor spaces to clean and tidy.</p>
+                                        <ul class="mb-0 small text-muted ps-3">
+                                            <li>Green waste removal</li>
+                                            <li>Shed dismantling</li>
+                                            <li>Fast, tidy work</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start gap-3">
+                                    <div class="bg-white rounded-circle d-flex align-items-center justify-content-center"
+                                        style="width:56px;height:56px;border:1px solid var(--panel-edge); box-shadow:var(--shadow-1);">
+                                        <i class="bi bi-trash-fill fs-4" style="color:var(--primary-600)"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h5 mb-1">Same-day Rubbish Collection</h3>
+                                        <p class="mb-2 small text-muted">Call by 10am for same-day collection.</p>
+                                        <ul class="mb-0 small text-muted ps-3">
+                                            <li>Single items to full loads</li>
+                                            <li>Eco-conscious disposal</li>
+                                            <li>Fair, upfront pricing</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start gap-3">
+                                    <div class="bg-white rounded-circle d-flex align-items-center justify-content-center"
+                                        style="width:56px;height:56px;border:1px solid var(--panel-edge); box-shadow:var(--shadow-1);">
+                                        <i class="bi bi-stars fs-4" style="color:var(--primary-600)"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h5 mb-1">One-off Deep Clean</h3>
+                                        <p class="mb-2 small text-muted">A detailed clean for any occasion.</p>
+                                        <ul class="mb-0 small text-muted ps-3">
+                                            <li>Kitchens & bathrooms</li>
+                                            <li>End-to-end surfaces</li>
+                                            <li>All supplies provided</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start gap-3">
+                                    <div class="bg-white rounded-circle d-flex align-items-center justify-content-center"
+                                        style="width:56px;height:56px;border:1px solid var(--panel-edge); box-shadow:var(--shadow-1);">
+                                        <i class="bi bi-arrow-repeat fs-4" style="color:var(--primary-600)"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h5 mb-1">Regular Cleaning</h3>
+                                        <p class="mb-2 small text-muted">Weekly, fortnightly, or monthly schedules.</p>
+                                        <ul class="mb-0 small text-muted ps-3">
+                                            <li>Flexible plans</li>
+                                            <li>Trusted team</li>
+                                            <li>No long contracts</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start gap-3">
+                                    <div class="bg-white rounded-circle d-flex align-items-center justify-content-center"
+                                        style="width:56px;height:56px;border:1px solid var(--panel-edge); box-shadow:var(--shadow-1);">
+                                        <i class="bi bi-door-closed-fill fs-4" style="color:var(--primary-600)"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h5 mb-1">End of Tenancy Clean</h3>
+                                        <p class="mb-2 small text-muted">Hassle-free, thorough property handover.</p>
+                                        <ul class="mb-0 small text-muted ps-3">
+                                            <li>Checklist-based</li>
+                                            <li>Oven & appliance clean</li>
+                                            <li>Carpets on request</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- row -->
+            </div>
+        </section>
+
+        <!-- Areas -->
+        <section id="areas" class="my-5 section-areas p-0 rounded-4 section-wrap">
+            <div class="divider-top"></div>
+            <div class="p-3 p-md-4">
+                <div class="text-center mb-4">
+                    <h2 class="section-title h1">Service Areas</h2>
+                    <p class="section-sub">Local, friendly and punctual</p>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center gap-2">
+                    <span class="badge rounded-pill px-3 py-2"
+                        style="background: rgba(36,83,154,0.1); color: var(--primary-600); border:1px solid rgba(36,83,154,0.25);">Todmorden</span>
+                    <span class="badge rounded-pill px-3 py-2"
+                        style="background: rgba(36,83,154,0.1); color: var(--primary-600); border:1px solid rgba(36,83,154,0.25);">Rochdale</span>
+                    <span class="badge rounded-pill px-3 py-2"
+                        style="background: rgba(36,83,154,0.1); color: var(--primary-600); border:1px solid rgba(36,83,154,0.25);">Hebden
+                        Bridge</span>
+                    <span class="badge rounded-pill px-3 py-2"
+                        style="background: rgba(36,83,154,0.1); color: var(--primary-600); border:1px solid rgba(36,83,154,0.25);">Rossendale</span>
+                </div>
+
+                <div class="row g-4 mt-1">
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="h5 mb-3"><i class="bi bi-hand-thumbs-up me-2"
+                                        style="color: var(--primary-600);"></i> Why choose us</h3>
+                                <ul class="mb-0 small text-muted ps-3">
+                                    <li>Reliable family-run team</li>
+                                    <li>Fully insured & CRB checked</li>
+                                    <li>Competitive, transparent pricing</li>
+                                    <li>Friendly and professional service</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="h5 mb-3"><i class="bi bi-recycle me-2"
+                                        style="color: var(--primary-600);"></i> Responsible disposal</h3>
+                                <p class="mb-0 small" style="color: var(--text-muted);">We aim to reuse or recycle
+                                    wherever possible and dispose of waste responsibly in line with local regulations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote -->
+        <section id="quote" class="my-5 section-quote p-0 rounded-4 section-wrap">
+            <div class="divider-top"></div>
+            <div class="p-3 p-md-4">
+                <div class="text-center mb-4">
+                    <h2 class="section-title h1">Get a Free Quote</h2>
+                    <p class="section-sub">Tell us what you need — we’ll reply within 24 hours</p>
+                </div>
+
+                <div class="card booking-card" style="background: var(--bg-0);">
+                    <div class="card-body p-4 p-md-5">
+                        <!-- Note: mailto forms rely on user's email client. Consider using a simple form backend later. -->
+                        <form action="mailto:SDM.clean@hotmail.com" method="POST" enctype="text/plain">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label fw-semibold">Full Name *</label>
+                                    <input type="text" class="form-control" id="name" name="Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label fw-semibold">Email Address *</label>
+                                    <input type="email" class="form-control" id="email" name="Email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label fw-semibold">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="Phone"
+                                        placeholder="07553 400 773">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="service" class="form-label fw-semibold">Service Required *</label>
+                                    <select class="form-select" id="service" name="Service" required>
+                                        <option value="">Choose a service...</option>
+                                        <option>House Clearance</option>
+                                        <option>Garden/Shed Clearance</option>
+                                        <option>Same Day Rubbish Collection</option>
+                                        <option>One Off Clean</option>
+                                        <option>Regular Clean</option>
+                                        <option>End of Tenancy Clean</option>
+                                        <option>Other (please specify in details)</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="details" class="form-label fw-semibold">Job Details *</label>
+                                    <textarea class="form-control" id="details" name="Details" rows="4" required
+                                        placeholder="Please describe the work needed, property size, any special requirements, etc."></textarea>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="date" class="form-label fw-semibold">Preferred Date</label>
+                                    <input type="date" class="form-control" id="date" name="Preferred Date">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="location" class="form-label fw-semibold">Location</label>
+                                    <input type="text" class="form-control" id="location" name="Location"
+                                        placeholder="e.g., Todmorden, Rochdale...">
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-cta px-5 mt-2"><i class="bi bi-send me-1"></i>
+                                        Send Request</button>
+                                    <div class="text-muted small mt-2">We’ll respond within 24 hours with your free
+                                        quote</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-5">
+        <div class="container text-center py-4">
+            <div class="pt-3 border-top">
+                <p class="text-muted mb-2">&copy; 2025 S.D.M Cleaning & Clearance Services</p>
+                <p class="text-muted small mb-0">Professional cleaning and clearance services across Todmorden,
+                    Rochdale, Hebden Bridge & Rossendale</p>
+                <div class="mt-2 small text-muted" itemprop="address" itemscope
+                    itemtype="http://schema.org/PostalAddress">
+                    <div><strong>S.D.M Cleaning & Clearance Services</strong></div>
+                    <div itemprop="addressLocality">Todmorden</div>
+                    <div itemprop="telephone">Tel: <a href="tel:07553400776">07553 400 776</a></div>
+                </div>
+                <div class="mt-3 d-flex justify-content-center gap-3">
+                    <a href="tel:07553400776" class="text-decoration-none"><i class="bi bi-telephone me-1"
+                            style="color: var(--primary-600);"></i> 07553 400 776</a>
+                    <a href="mailto:SDM.clean@hotmail.com" class="text-decoration-none"><i class="bi bi-envelope me-1"
+                            style="color: var(--primary-600);"></i> SDM.clean@hotmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Reveal on scroll for a subtle entrance effect
+        (function () {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) {
+                        e.target.classList.add('visible');
+                        io.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+
+            document.querySelectorAll('.card, .section-title, .quote-card, #quote .booking-card, .hero').forEach(el => {
+                el.classList.add('reveal');
+                io.observe(el);
+            });
+        })();
+
+        // Improve mailto form UX: show a small confirm before navigating to mail client
+        const form = document.querySelector('form[action^="mailto:"]');
+        if (form) {
+            form.addEventListener('submit', function (e) {
+                // Let mailto proceed but give quick feedback
+                const submitBtn = form.querySelector('button[type="submit"]');
+                if (submitBtn) {
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = '<i class="bi bi-hourglass-split me-1"></i> Opening email...';
+                }
+                setTimeout(() => { if (submitBtn) submitBtn.disabled = false; }, 4000);
+            });
+        }
+        // Active nav link on scroll and smooth scroll polyfill for older browsers
+        (function () {
+            const navLinks = document.querySelectorAll('.navbar .nav-link');
+            const sections = Array.from(navLinks).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+
+            function onScroll() {
+                const y = window.scrollY + (window.innerHeight * 0.15);
+                let current = sections[0];
+                for (const s of sections) { if (s.offsetTop <= y) current = s; }
+                navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === ('#' + current.id)));
+                // back to top toggle
+                const btt = document.querySelector('.back-to-top');
+                if (window.scrollY > 600) { btt && btt.classList.add('show'); } else { btt && btt.classList.remove('show'); }
+            }
+
+            window.addEventListener('scroll', onScroll, { passive: true });
+            onScroll();
+
+            // delegate smooth scroll for in-page anchors
+            document.addEventListener('click', function (e) {
+                const a = e.target.closest('a[href^="#"]');
+                if (!a) return;
+                const target = document.querySelector(a.getAttribute('href'));
+                if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+            });
+        })();
+
+        // back to top button
+        (function () {
+            const btt = document.createElement('button');
+            btt.className = 'back-to-top';
+            btt.title = 'Back to top';
+            btt.innerHTML = '<i class="bi bi-arrow-up" style="color:var(--primary-600)"></i>';
+            document.body.appendChild(btt);
+            btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+        })();
+        // Testimonial carousel logic
+        (function () {
+            const carousel = document.querySelector('.quote-card');
+            if (!carousel) return;
+            const items = Array.from(carousel.querySelectorAll('.testimonial'));
+            const indicators = Array.from(carousel.querySelectorAll('.testimonial-indicators button'));
+            const btnPrev = carousel.querySelector('[data-action="prev"]');
+            const btnNext = carousel.querySelector('[data-action="next"]');
+            let idx = 0;
+            let timer = null;
+            const announce = document.createElement('div'); announce.className = 'visually-hidden'; announce.setAttribute('aria-live', 'polite'); carousel.appendChild(announce);
+
+            function show(i) {
+                items.forEach((it, n) => {
+                    const active = n === i;
+                    it.classList.toggle('active', active);
+                    it.setAttribute('aria-hidden', String(!active));
+                    indicators[n].classList.toggle('active', active);
+                    indicators[n].setAttribute('aria-selected', String(active));
+                });
+                idx = i;
+                announce.textContent = items[i].textContent.trim().slice(0, 120) + '...';
+            }
+
+            function next() { show((idx + 1) % items.length); }
+            function prev() { show((idx - 1 + items.length) % items.length); }
+
+            btnNext && btnNext.addEventListener('click', () => { next(); resetTimer(); });
+            btnPrev && btnPrev.addEventListener('click', () => { prev(); resetTimer(); });
+            indicators.forEach(b => b.addEventListener('click', () => { show(Number(b.dataset.index)); resetTimer(); }));
+
+            function resetTimer() { clearInterval(timer); timer = setInterval(next, 6000); }
+            carousel.addEventListener('mouseenter', () => clearInterval(timer));
+            carousel.addEventListener('mouseleave', () => resetTimer());
+            carousel.addEventListener('focusin', () => clearInterval(timer));
+            carousel.addEventListener('focusout', () => resetTimer());
+
+            // start
+            resetTimer();
+        })();
+    </script>
+    <!-- Floating CTA -->
+    <div class="floating-cta" role="complementary" aria-label="Quick actions">
+        <a href="tel:07553400776" aria-label="Call S D M Cleaning">
+            <span class="pulse" aria-hidden="true"></span>
+            <span>Call 07553 400 776</span>
+        </a>
+        <a href="#quote" class="d-none d-sm-inline-block" aria-label="Get a free quote">Get a quote</a>
+    </div>
+    <script>
+        // compute combined header height (topbar + navbar) and set CSS scroll-padding-top
+        (function setScrollOffset() {
+            function update() {
+                const topbar = document.querySelector('.topbar');
+                const navbar = document.querySelector('.navbar');
+                const top = (topbar ? topbar.getBoundingClientRect().height : 0) + (navbar ? navbar.getBoundingClientRect().height : 0) + 12;
+                document.documentElement.style.setProperty('--scroll-offset', top + 'px');
+            }
+            update();
+            window.addEventListener('resize', () => requestAnimationFrame(update));
+            // also handle dynamic changes after fonts load
+            window.addEventListener('load', update);
+        })();
+    </script>
+</body>
+
+</html>
